@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Projeto de prática DevOps com Github Actions",
   "main": "index.js",
-  "scripts": {
-    "start": "node src/app.js",
-    "test": "npx jest --coverage"
-  },
+ "scripts": {
+  "start": "node src/app.js",
+  "test": "node ./node_modules/jest/bin/jest.js --coverage"
+},
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/taiscapile/cesusc-devops.git"
