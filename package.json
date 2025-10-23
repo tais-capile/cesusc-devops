@@ -4,9 +4,9 @@
   "description": "Projeto de prática DevOps com Github Actions",
   "main": "index.js",
   "scripts": {
-  "start": "node src/app.js",
-  "test": "jest --coverage"
-},
+    "start": "node src/app.js",
+    "test": "jest --coverage"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/taiscapile/cesusc-devops.git"
